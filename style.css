@@ -18,7 +18,8 @@ body {
 .selectLearn {
     width: 100%;
     height: 2em;
-    font-size: 1.2em;
+    font-size: 1em;
+    padding: 2em;
 }
 
 .playerDrops {

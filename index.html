@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO-LIST</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header"><h1>REVISÃO</h1></div>
+      <main>
+        <select class="selectLearn">
+          <!-- Grupo 1 -->
+          <optgroup label="Semana 1-2: Fundamentos Básicos">
+            <option disabled selected>-------------------</option>
+            <option value="info">Informações Gerais</option>
+            <option value="intro">Introdução ao JavaScript</option>
+            <option value="varTipDado">Variáveis e Tipos de Dados</option>
+            <option value="opExp">Operadores e Expressões</option>
+          </optgroup>
+          <!-- Grupo 2 -->
+          <optgroup label="Controle de Fluxo">
+            <option value="estCond">Estruturas Condicionais</option>
+            <option value="estRep">Estruturas de Repetição</option>
+          </optgroup>
+          <!-- Grupo 3 -->
+          <optgroup label="Estruturas de Dados">
+            <option value="arr">Arrays</option>
+            <option value="obj">Objetos</option>
+            <option value="metArr">Métodos - Array - Playlist</option>
+            <option value="metObj">Métodos - Objetos - Playlist</option>
+          </optgroup>
+          <!-- Grupo 4 -->
+          <optgroup label="Funções e Escopo">
+            <option value="func">Funções</option>
+            <option value="escop">Escopo</option>
+          </optgroup>
+          <!-- Grupo 5 -->
+          <optgroup label="Programação Orientada a Objetos">
+            <option value="intPoo">Introdução à POO em JavaScript</option>
+            <option value="classEs6">Classes (ES6+)</option>
+          </optgroup>
+          <!-- Grupo 6 -->
+          <optgroup label="Manipulação do DOM e Eventos">
+            <option value="domManip">Seleção e Manipulação do DOM</option>
+            <option value="events">Trabalhando com Eventos</option>
+          </optgroup>
+          <!-- Grupo 7 -->
+          <optgroup label="Assincronismo em JavaScript">
+            <option value="callb">Callbacks e Promises</option>
+            <option value="asyncAwait">Async/Await</option>
+          </optgroup>
+          <!-- Grupo 8 -->
+          <optgroup label="APIs e Consumo de Dados">
+            <option value="reqHttpAjx">Requisições HTTP e AJAX</option>
+            <option value="apiConsumo">Consumo de API REST</option>
+          </optgroup>
+          <!-- Grupo 9 -->
+          <optgroup label="Ferramentas e Ambientes de Desenvolvimento">
+            <option value="ferrDesenv">Ferramentas de Desenvolvimento</option>
+            <option value="ctrlVersGit">Controle de Versão (Git)</option>
+            <option value="nodeJs">Node</option>
+          </optgroup>
+          <!-- Grupo 10 -->
+          <optgroup label="Projeto Final e Revisão">
+            <option value="project">Desenvolvimento de um Projeto</option>
+            <option value="revGeral">Revisão Geral</option>
+          </optgroup>
+        </select>
+
+        <div class="playerDrops">
+          <iframe
+            name="ytb"
+            class="frameVideo"
+            title="YouTube video player"
+            src=""
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
